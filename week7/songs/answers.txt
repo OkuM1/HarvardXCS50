@@ -1,0 +1,18 @@
+According to Spotify "Audrio Aura" is a metric calculated by measuring the "energy" of an audio track.
+By assigning the two best fitting audio "moods" taken from the colors matching the energy metrics they represent your wrapped year with a final color gradient visualization.
+I would take the avg energy, avg danceability and avg valence as metrics to calculate the aura.
+Since these values are very subjective they represent good indicators to visualize something as abstract as an aura.
+Maybe multiplying these would give us a number that we could fit in a range of colors and pick the best mood for the listener.
+Higher energy means could be correlated to purple and lower energy more towards green.
+Higher or lower Valence could decide between yellow and blue.
+By contrasting two colors we can assume a lower or higher value with a cutoff-point to lean towards one or the other.
+
+
+However since the calculation is limited to 100 songs it is very superficial representation of their taste and as such their "aura".
+One might also interpret a song that is regarded as a party or "dance song" in a more melodramatic way so our data makes assumptions that
+take a certain consensus for granted across all listeners.
+
+I would take a much larger set of songs and categorize them by genres. Then we can give each genre a corresponding color or multiple colors.
+By counting up the points of each color according to every single song and the genre in their respective colors we might able to more accurately represent
+the aura of the listener. This would require an extensive list of every genre and a subjective categorization of those in every color but might increase
+accuracy due to the amount of data take into account.

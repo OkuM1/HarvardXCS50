@@ -1,0 +1,78 @@
+/* Global Styles */
+
+body {
+  font-family: 'MedievalFont', sans-serif;
+  background-color: black;
+  color: black;
+  font-size: 20px;
+  background-image: url("background.gif");
+  background-size: cover;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #800010;
+  border-color: #800000;
+}
+
+/* Footer Styles */
+
+.footer {
+  background-color: black;
+  color: #ffffff;
+  height: 40px;
+  padding: 10px 0;
+  margin-top: auto;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 25px;
+}
+
+/* Index Page Styles */
+
+.description {
+  margin-bottom: 20px;
+}
+
+.button-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  align-items: center;
+  background: none;
+  border: none;
+}
+
+/* Character Background Page Styles */
+
+.form-group {
+  margin-bottom: 40px;
+}
+
+/* Equipment Page Styles */
+
+.equipment-slot {
+  margin-bottom: 40px;
+}
+
+/* Attribute Rolling Page Styles */
+
+.attribute-rolling {
+  margin-bottom: 40px;
+}

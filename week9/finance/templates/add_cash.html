@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add Cash
+{% endblock %}
+
+{% block main %}
+    <h1>Add Cash<h1>
+    <form action="/add_cash" method="post">
+        <div class="mb-3">
+            <input name="cash_add" placeholder="Type amount of USD" type="text" required>
+        </div>
+        <button class="button-59" role="button" type="submit">Add Cash</button>
+        </form>
+
+{% endblock %}

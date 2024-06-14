@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="center center table table-dark" border="1">
+        <thead>
+            <th>symbol</th>
+            <th>shares</th>
+            <th>price</th>
+            <th>method</th>
+            <th>date</th>
+        </thead>
+        <tbody>
+            {% for row in history_data %}
+            <tr>
+                <td>{{ row["symbol"] }}</td>
+                <td>{{ row["shares"] }}</td>
+                <td>{{ row["price"] }}</td>
+                <td>{{ row["method"] }}</td>
+                <td>{{ row["date"] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

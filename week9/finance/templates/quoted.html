@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote stock prices
+{% endblock %}
+
+{% block main %}
+    <form action="/quoted" method="post">
+
+            {{ result["symbol"] }} Shareprice: {{ result["price"] | usd }}
+
+    </form>
+{% endblock %}
